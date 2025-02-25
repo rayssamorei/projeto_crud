@@ -1,13 +1,13 @@
-package br.com.anm.projetocrud.produtos;
+package br.com.anm.produtos.projetocrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProdutosApplication {
+public class ProjetoCrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutosApplication.class, args);
+		SpringApplication.run(ProjetoCrudApplication.class, args);
 	}
 
 }
