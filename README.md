@@ -16,17 +16,24 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
 - **Frameworks e Bibliotecas:** Java Swing, JDBC
 
 ## 📂 Estrutura do Projeto
-```
-📦 projeto-vendas
- ┣ 📂 src
- ┃ ┣ 📂 model        # Classes de modelo
- ┃ ┣ 📂 view         # Interfaces gráficas
- ┃ ┣ 📂 controller   # Controle de lógica de negócio
- ┃ ┗ 📂 database     # Conexão com o banco de dados
- ┣ 📜 README.md      # Documentação do projeto
- ┣ 📜 pom.xml        # Dependências do projeto
-┗ 📜 .gitignore      # Arquivos ignorados no Git
-```
+📦 projeto-crud
+ ┣ 📂 backend
+ ┃ ┣ 📂 src
+ ┃ ┃ ┣ 📂 main
+ ┃ ┃ ┃ ┣ 📂 java
+ ┃ ┃ ┃ ┃ ┣ 📂 br
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂 com
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 anm
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 produtos
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 controle      # Lógica de controle
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 servico       # Serviços de negócios
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 repositorio   # Conexão com o banco de dados
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 modelo        # Classes de modelo
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜 ProjetoCrudApplication.java # Arquivo principal da aplicação
+ ┣ 📜 README.md
+ ┣ 📜 pom.xml
+ ┣ 📜 .gitignore
+
 
 ## ▶️ Como Executar
 1. Clone este repositório:
