@@ -10,10 +10,17 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
 - Autenticação de usuários para segurança
 
 ## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Java
-- **Banco de Dados:** MySQL
-- **IDE:** Visual Studio Code
-- **Frameworks e Bibliotecas:** Java Swing, JDBC
+
+- **Linguagem**: Java (versão 17)
+- **Framework**: Spring Boot
+- **Banco de Dados**: MySQL
+- **ORM**: JPA (Java Persistence API)
+- **IDE**: Visual Studio Code
+- **Bibliotecas**:
+  - **Lombok** (para redução de código boilerplate)
+  - **Spring Boot DevTools** (para desenvolvimento mais rápido)
+- **Ferramenta de Build**: Maven
+
 
 ## 📂 Descrição das Pastas
 - **controle:** Contém as classes responsáveis pela lógica de controle do sistema.
