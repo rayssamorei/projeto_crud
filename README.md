@@ -16,11 +16,11 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
 - **Frameworks e Bibliotecas:** Java Swing, JDBC
 
 ## 📂 Descrição das Pastas
-controle: Contém as classes responsáveis pela lógica de controle do sistema.
-servico: Inclui os serviços de negócios que lidam com a execução das operações principais da aplicação.
-repositorio: Realiza a conexão com o banco de dados e as operações de persistência de dados.
-modelo: Define as classes de modelo que representam os objetos principais, como clientes, produtos, etc.
-ProjetoCrudApplication.java: Arquivo principal que inicializa e executa a aplicação.
+- **controle:** Contém as classes responsáveis pela lógica de controle do sistema.
+- **servico:** Inclui os serviços de negócios que lidam com a execução das operações principais da aplicação.
+- **repositorio:** Realiza a conexão com o banco de dados e as operações de persistência de dados.
+- **modelo:** Define as classes de modelo que representam os objetos principais, como clientes, produtos, etc.
+- **ProjetoCrudApplication.java:** Arquivo principal que inicializa e executa a aplicação.
 
 ## ▶️ Como Executar
 1. Clone este repositório:
