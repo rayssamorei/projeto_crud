@@ -15,27 +15,6 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
 - **IDE:** Visual Studio Code
 - **Frameworks e Bibliotecas:** Java Swing, JDBC
 
-## 📂 Estrutura do Projeto
-📦 projeto-crud
- ┣ 📂 backend
- 
- ┃ ┣ 📂 src
- ┃ ┃ ┣ 📂 main
- ┃ ┃ ┃ ┣ 📂 java
- ┃ ┃ ┃ ┃ ┣ 📂 br
- ┃ ┃ ┃ ┃ ┃ ┣ 📂 com
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 anm
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 produtos
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 controle      # Lógica de controle
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 servico       # Serviços de negócios
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 repositorio   # Conexão com o banco de dados
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂 modelo        # Classes de modelo
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜 ProjetoCrudApplication.java # Arquivo principal da aplicação
- ┣ 📜 README.md
- ┣ 📜 pom.xml
- ┣ 📜 .gitignore
-
-
 ## ▶️ Como Executar
 1. Clone este repositório:
    ```bash
