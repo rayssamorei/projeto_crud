@@ -5,8 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Component
-@Setter
 @Getter
+@Setter
 public class RespostaModelo {
-    private Spring resposta;
+    private String mensagem;
 }
