@@ -1,7 +1,7 @@
 package br.com.anm.produtos.projetocrud.servico;
 
 import org.springframework.stereotype.Service;
-import org.springframework.beans.factory.anotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import br.com.anm.produtos.projetocrud.repositorio.ProdutoRepositorio;
 import br.com.anm.produtos.projetocrud.modelo.ProdutoModelo;
 
