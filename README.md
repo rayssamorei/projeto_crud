@@ -4,10 +4,7 @@
 Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o objetivo de gerenciar clientes, produtos, fornecedores e vendas de forma eficiente. 
 
 ## 🚀 Funcionalidades
-- Cadastro de clientes, funcionários, produtos e fornecedores
-- Registro e histórico de vendas
-- Sistema de pagamentos integrado
-- Autenticação de usuários para segurança
+- CRUD de produtos
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -20,7 +17,7 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
   - **Lombok** (para redução de código boilerplate)
   - **Spring Boot DevTools** (para desenvolvimento mais rápido)
 - **Ferramenta de Build**: Maven
-
+- **React**
 
 ## 📂 Descrição das Pastas
 - **controle:** Contém as classes responsáveis pela lógica de controle do sistema.
@@ -28,11 +25,12 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
 - **repositorio:** Realiza a conexão com o banco de dados e as operações de persistência de dados.
 - **modelo:** Define as classes de modelo que representam os objetos principais, como clientes, produtos, etc.
 - **ProjetoCrudApplication.java:** Arquivo principal que inicializa e executa a aplicação.
+- **frontend/front:** Onde fica a parte do frontend feita em react.
 
 ## ▶️ Como Executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-vendas.git
+   git clone https://github.com/rayssamorei/projeto_crud.git
    ```
 2. Abra o projeto no **VS Code**
 3. Configure o banco de dados MySQL
@@ -40,6 +38,14 @@ Este projeto é um **Sistema de Vendas** desenvolvido em **VS Code**, com o obje
    ```bash
    javac -d bin src/**/*.java
    java -cp bin Main
+   ```
+5. instale as dependecias do react com o comando:
+   ```bash
+   npm install
+   ```
+6. execute o react com o comando:
+   ```bash
+   npm start
    ```
 
 ## 📌 Contribuição
@@ -51,4 +57,4 @@ Contribuições são bem-vindas! Para isso:
 5. Abra um **Pull Request**
 
 ## 📜 Licença
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a MIT License.
