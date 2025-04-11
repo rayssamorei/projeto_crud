@@ -11,7 +11,11 @@ function App() {
   const produto = {
     codigo: null,
     nome: '',
-    marca: ''
+    marca: '',
+    descricao: '',
+    preco: '',
+    qtdEstoque: '',
+    urlImagem: ''
   }
 
   //UseState
@@ -56,6 +60,10 @@ function App() {
 
   //Alterar produto
   const alterar = () => {
+    if (objProduto.urlImagem.length > 255) {
+      alert("A URL da imagem é muito longa! Máximo de 255 caracteres.");
+      return;
+    }
     fetch('http://localhost:8080/alterar', {
       method: 'put',
       body: JSON.stringify(objProduto),

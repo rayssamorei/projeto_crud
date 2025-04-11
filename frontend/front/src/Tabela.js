@@ -3,10 +3,13 @@ function Tabela({ vetor, selecionar }) {
         <table className='table'>
             <thead>
                 <tr>
-                    <th>#</th>
+                    <th>Id</th>
                     <th>Nome</th>
                     <th>Marca</th>
-                    <th>Selecionar</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Quantidade em estoque</th>
+                    <th>Imagem</th>
                 </tr>
             </thead>
             <tbody>
@@ -16,6 +19,12 @@ function Tabela({ vetor, selecionar }) {
                             <td> {indice + 1}</td>
                             <td> {obj.nome}</td>
                             <td> {obj.marca}</td>
+                            <td> {obj.descricao}</td>
+                            <td> {obj.preco}</td>
+                            <td> {obj.qtdEstoque}</td>
+                            <td>
+                                <img src={obj.urlImagem} alt={obj.nome} className="imagem-produto" />
+                            </td>
                             <td>
                                 <button onClick={() => selecionar(indice)} className="btn btn-success">
                                     <i className="fas fa-check" style={{ marginRight: "5px" }}></i> Selecionar
