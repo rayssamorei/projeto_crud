@@ -37,9 +37,9 @@ function App() {
 
   //Cadastrar produto
   const cadastrar = () => {
-    fetch('http://localhost:8080/cadastrar', {
-      method: 'post',
-      body: JSON.stringify(objProduto),
+    fetch('http://localhost:8080/cadastrar', { //envia uma requisição para o localhost:8080/cadastrar
+      method: 'post', //requisição do metodo post
+      body: JSON.stringify(objProduto), //converte as informações de objProduto em JSON para o servidor entender
       headers: {
         'Content-type': 'application/json',
         'Accept': 'application/json'
@@ -47,13 +47,13 @@ function App() {
       }
     })
       .then(retorno => retorno.json())
-      .then(retorno_convertido => {
-        if (retorno_convertido.mensagem !== undefined) {
-          alert(retorno_convertido.mensagem);
-        } else {
-          setProdutos([...produtos, retorno_convertido]);
-          alert('Produto cadastrado com sucesso!');
-          limparFormulario();
+      .then(retorno_convertido => { //retorno convertido
+        if (retorno_convertido.mensagem !== undefined) { //se o retorno for indefinido
+          alert(retorno_convertido.mensagem); //envia um erro
+        } else { // se nao 
+          setProdutos([...produtos, retorno_convertido]);// cria um novo produto e adiciona na lista
+          alert('Produto cadastrado com sucesso!'); //imite um alert com uma mensagem de sucesso
+          limparFormulario(); //limpa o formulario
         }
       })
   }
